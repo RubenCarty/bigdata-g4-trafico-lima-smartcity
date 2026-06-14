@@ -9,11 +9,12 @@
 ## Equipo
 
 | Nombre | GitHub | Rol |
-|--------|--------|-----|
-| [Apellido Nombre 1] | [@usuario1](https://github.com/usuario1) | Líder + Arquitectura |
-| [Apellido Nombre 2] | [@usuario2](https://github.com/usuario2) | Ingesta GPS + PySpark |
-| [Apellido Nombre 3] | [@usuario3](https://github.com/usuario3) | GraphX + Neo4j + ML |
-| [Apellido Nombre 4] | [@usuario4](https://github.com/usuario4) | Dashboard + Mapas interactivos |
+| -------- | -------- | ----- |
+| Ferreyra Villarriel, Raúl Ricardo | [Ferreyra Villarriel, Raúl Ricardo](https://github.com/raulferreyra) | Líder + Arquitectura |
+| Huapaya Ormeño, Edgar Gerardo | [Huapaya Ormeño, Edgar Gerardo](https://github.com/ehuapayao-cloud) | Ingesta GPS + PySpark |
+| Orellano Huerta, Hidgar | [Orellano Huerta, Hidgar](https://github.com/HidgarO) | Dashboard + Mapas interactivos |
+| Paredes Becerra, Anggie Marisol | [Paredes Becerra, Anggie Marisol](https://github.com/Anggie-28) | GraphX + Neo4j + ML |
+| Zevallos Macavilca, Ian Jesús | [Zevallos Macavilca, Ian Jesús](https://github.com/IanZevallos) | GraphX + Neo4j + ML |
 
 ---
 
@@ -38,7 +39,7 @@ Lima es la **5ta ciudad más congestionada de América Latina** (TomTom Traffic 
 
 **¿Por qué Big Data?**
 | V | Justificación |
-|---|--------------|
+| --- | -------------- |
 | **Volumen** | 50K vehículos × 1 punto GPS/min × 16h/día = 48M puntos/día |
 | **Velocidad** | Actualización de rutas en < 2 minutos |
 | **Variedad** | GPS (lat/lon), clima SENAMHI, eventos públicos, datos OpenStreetMap |
@@ -65,7 +66,7 @@ Desarrollar un sistema de análisis y predicción de tráfico urbano en Lima usa
 
 ## 3. Arquitectura del Sistema
 
-```
+```bash
 ┌──────────────────────────────────────────────────────────────┐
 │              ARQUITECTURA SMART TRAFFIC LIMA                 │
 ├──────────────────────────────────────────────────────────────┤
@@ -104,7 +105,7 @@ Desarrollar un sistema de análisis y predicción de tráfico urbano en Lima usa
 ## 4. Stack Tecnológico (100% Gratuito)
 
 | Capa | Tecnología | Plataforma | Para qué |
-|------|-----------|------------|---------|
+| ------ | ----------- | ------------ | --------- |
 | Simulación GPS | Faker + OSMnx | Google Colab | 50K trayectorias realistas en Lima |
 | Procesamiento | PySpark 3.5 | Databricks Community | Agregaciones por segmento de calle |
 | Grafos Spark | PySpark GraphX | Databricks Community | PageRank, shortest path |
@@ -145,7 +146,7 @@ Desarrollar un sistema de análisis y predicción de tráfico urbano en Lima usa
 ## 6. Plan de Entregables por Semana
 
 | Semana | Entregable | Notebook | Criterio de éxito |
-|--------|-----------|----------|-------------------|
+| -------- | ----------- | ---------- | ------------------- |
 | **S1** | Dataset GPS + EDA Lima | `01_EDA_trafico_lima.ipynb` | 50K trayectorias, mapa de calor de densidad |
 | **S2** | Pipeline PySpark + GraphX | `02_grafo_calles_spark.ipynb` | Grafo Lima 15K nodos, PageRank calculado |
 | **S3** | Neo4j + rutas óptimas | `03_neo4j_rutas.ipynb` | Cypher: ruta Miraflores→SJL en < 2s |
@@ -159,7 +160,7 @@ Desarrollar un sistema de análisis y predicción de tráfico urbano en Lima usa
 
 ## 7. Estructura del Repositorio
 
-```
+```sh
 grupo3-trafico-lima-smartcity-bd/
 ├── README.md
 ├── notebooks/
@@ -230,7 +231,7 @@ git push origin feature/grafo-neo4j-tuapellido
 ## 10. Tracker de Progreso
 
 | Semana | Entregable | Estado |
-|--------|-----------|--------|
+| -------- | ----------- | -------- |
 | S1 | Dataset GPS + EDA | ⬜ Pendiente |
 | S2 | Grafo PySpark + GraphX | ⬜ Pendiente |
 | S3 | Neo4j + Rutas | ⬜ Pendiente |
