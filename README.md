@@ -12,9 +12,9 @@
 | -------- | -------- | ----- |
 | Ferreyra Villarriel, Raúl Ricardo | [Ferreyra Villarriel, Raúl Ricardo](https://github.com/raulferreyra) | Líder + Arquitectura |
 | Huapaya Ormeño, Edgar Gerardo | [Huapaya Ormeño, Edgar Gerardo](https://github.com/ehuapayao-cloud) | Ingesta GPS + PySpark |
-| Orellano Huerta, Hidgar | [Orellano Huerta, Hidgar](https://github.com/HidgarO) | Dashboard + Mapas interactivos |
-| Paredes Becerra, Anggie Marisol | [Paredes Becerra, Anggie Marisol](https://github.com/Anggie-28) | GraphX + Neo4j + ML |
-| Zevallos Macavilca, Ian Jesús | [Zevallos Macavilca, Ian Jesús](https://github.com/IanZevallos) | GraphX + Neo4j + ML |
+| Orellano Huerta, Hidgar | [Orellano Huerta, Hidgar](https://github.com/HidgarO) | GraphX + Neo4j + ML  |
+| Paredes Becerra, Anggie Marisol | [Paredes Becerra, Anggie Marisol](https://github.com/Anggie-28) | Dashboard |
+| Zevallos Macavilca, Ian Jesús | [Zevallos Macavilca, Ian Jesús](https://github.com/IanZevallos) | Mapas interactivos |
 
 ---
 
